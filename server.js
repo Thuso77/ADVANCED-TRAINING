@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Use environment port or fallback to 8080
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 80;
 
 // Serve static files (e.g., index.html)
 app.use(express.static(__dirname));
@@ -15,5 +15,5 @@ app.get('/', (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(Server is running on port ${PORT});
+  console.log(Server is running on port $80);
 });
