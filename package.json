@@ -1,0 +1,15 @@
+{
+  "name": "cloudwebsite",              // Name of the app
+  "version": "1.0.0",                  // Version of the app
+  "description": "A simple cloud app",// Optional description
+  "main": "server.js",                 // Entry point
+  "scripts": {
+    "start": "node server.js",        // Runs the app
+    "build": "echo 'No build step'"   // Dummy build step for App Runner
+  },
+  "author": "Your Name",              // Your name or team
+  "license": "MIT",                   // License type
+  "dependencies": {
+    "express": "^4.18.2"              // Web framework
+  }
+}
